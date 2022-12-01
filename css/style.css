@@ -217,11 +217,15 @@ html{
     margin-bottom: 1rem;
 }
 .why-us .content{
-    background-color: aquamarine;
+    background-color: rgb(164, 209, 194);
     width: 90%;
     height: 35vh;
     margin-left: auto;
     margin-right: auto;
+    border: 2rem;
+}
+.why-us .content  .head{
+    border-bottom: 2px solid black;
 }
 .why-us .content .head ul{
     display: flex;
@@ -230,7 +234,7 @@ html{
     align-items: center;
     height: 3rem;
     width: 90%;
-    background-color: rgb(24, 216, 216);
+    background-color: rgb(164, 209, 194);
     margin-left: auto;
     margin-right: auto;
     padding: 2rem 2rem;
@@ -245,7 +249,7 @@ html{
 .why-us .content .head ul li a{
     text-decoration: none;
     font-size: 1.5rem;
-    color: aquamarine;
+    color: rgb(29, 61, 50);
 
 }
 .why-us .content .head ul li  .active{
@@ -271,3 +275,124 @@ html{
     color: rgb(48, 40, 40);
     text-align: end;
 }
+/* our serv */
+.our-serv{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #09361f;
+    height: 100vh;
+    padding: 1rem 0rem;
+}
+.our-serv h1{
+    color: rgb(240, 206, 14);
+    font-size: 3rem;
+    text-align: center;
+    font-weight:bolder;
+    margin-top: 5rem;
+    
+}
+.our-serv h5{
+    color: azure;
+    text-align: center;
+    margin-top: 2rem;
+}
+.our-serv .top{
+    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+   
+
+}
+.our-serv .top .tcard  h1{
+    margin-bottom: 3rem;
+}
+
+
+.our-serv .top .tcard ul li{
+    direction: rtl;
+    list-style-position: inside;
+    text-align: start;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    
+}
+.our-serv .middle{
+  
+    width: 80%;
+    margin: 0 auto;
+    height: 30vh;
+    padding: 1.5rem;
+}
+.our-serv .middle h1{
+    margin-bottom: 3rem;
+}
+.our-serv .middle .body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.our-serv .middle .body button{
+    flex-basis: 33%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    border-radius: 2rem;
+    color: #09361f;
+    
+}
+.our-serv .bottm{
+    width: 80%;
+    margin: 0 auto;
+    height: 30vh;
+    padding: 1.5rem;
+}
+
+.our-serv .bottm .body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.our-serv .bottm .body button{
+    flex-basis: 33%;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    border-radius: 2rem;
+    color: #09361f;
+}
+.our-serv .bottm h1{
+    margin-bottom: 2rem;
+}
+/* footer */
+.footer{
+    background-color: rgb(48, 40, 40);
+    width: 100%;
+    max-width: 1300px;
+    height: 10rem;
+    padding: 1.5rem;
+}
+.footer h5{
+    font-size: 1.5rem;
+    color: bisque;
+    text-align: center;
+    
+}
+.footer .icons{
+    margin: 0 auto;
+    width: 25rem;
+    font-size: 3rem;
+    color: bisque;
+    align-items: center;
+}
+
