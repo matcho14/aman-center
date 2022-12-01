@@ -1,0 +1,273 @@
+:root{
+    --pink:#e84393;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    
+}
+/* nav bar */
+.naav-bar{
+    max-width: 1300px;
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #e84393; */
+    
+}
+.naav-bar .top{
+    display: flex;
+    justify-content: space-between;
+    padding: .2rem .5rem;
+}
+.naav-bar .top .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.naav-bar .top .left p{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(9, 70, 49);
+}
+.naav-bar .top .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.naav-bar .top .right img{
+    width: 5rem;
+}
+.naav-bar .bottn{
+    width: 100%;
+    height: 4rem;
+    background-color: green;
+    border-bottom: 2px solid orange;
+}
+.naav-bar .bottn ul{    
+    width: 100%;
+    
+    padding: .2rem .2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.naav-bar .bottn ul li a{
+    list-style: none;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: aliceblue;
+    margin-right: 1.5rem;
+    transition: .5s ease-in-out;
+
+}
+.naav-bar .bottn ul li a:hover{
+    border-bottom: 2px solid orange ;
+}
+
+@media (max-width:990) {
+    .naav-bar{
+        max-width: 992;
+        width: 950px;
+    }
+    .naav-bar .bottn ul li a{
+        color: #e84393;
+    }
+}
+
+/* end nav bar */
+/* about us */
+.about-us{
+    max-width: 1300px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+    background-image: url('../images/gaeden.jpg');
+    background-size: 100% 90vh;
+    position: relative;
+}
+.about-us .logo{
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+}
+.about-us .bref{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:25rem;
+    right: 6rem;
+    
+    padding: 1rem 1rem;
+    background-color: rgba(2, 12, 9, 0.3);
+}
+.about-us .bref h1{
+    font-size: 3.5rem;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.about-us .bref h4{
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+.about-us .bref h5{
+    font-size: 2.2rem;
+    color: aliceblue;
+}
+
+.about-us .our-cv ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 39rem;
+    margin-top: -7px;
+    right: 6rem;
+    color: rgb(9, 70, 29);
+    background-color: rgba(89, 238, 238, 0.753);
+    width: 57.5rem;
+}
+.about-us .our-cv ul li{
+    font-size: 2rem;
+    
+}
+/* end about us */
+/* third section */
+.third-sec{
+    max-width: 1300px;
+    width: 100%;
+    background-color: #09361f;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 3rem 1rem;
+}
+.third-sec h1{
+    color: aliceblue;
+    text-align: center;
+}
+.third-sec .content{
+    width: 60%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 0 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10rem;
+}
+.third-sec .content h3{
+    color: aliceblue;
+}
+.third-sec .content p{
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: end;
+}
+.third-sec .content ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    direction: rtl;
+    text-align: start;
+    color: aliceblue;
+}
+/* third section */
+/* wgy us */
+.why-us{
+    max-width: 1300px;
+    width: 100%;
+    height: 50vh;   
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+}
+.why-us h1{
+    text-align: center;
+    color: rgb(17, 22, 26);
+    margin-bottom: 1rem;
+}
+.why-us .content{
+    background-color: aquamarine;
+    width: 90%;
+    height: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why-us .content .head ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 90%;
+    background-color: rgb(24, 216, 216);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+
+}
+.why-us .content .head ul li{
+    list-style: none;
+    
+
+}
+.why-us .content .head ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: aquamarine;
+
+}
+.why-us .content .head ul li  .active{
+    background-color: aliceblue;
+    padding: .8rem;
+    color: black;
+}
+.why-us .content .body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 90%;
+    margin: 0 auto;
+    height: 80%;
+    padding: 1rem;
+}
+.why-us .content .body .right img{
+    width: 28rem;
+}
+.why-us .content .body p{
+    font-size: 1.5rem;
+    color: rgb(48, 40, 40);
+    text-align: end;
+}
