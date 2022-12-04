@@ -31,7 +31,8 @@ html{
 .naav-bar .top{
     display: flex;
     justify-content: space-between;
-    padding: .2rem .5rem;
+    padding: 0rem 2rem;
+    height: 12rem;
 }
 .naav-bar .top .left{
     display: flex;
@@ -50,7 +51,8 @@ html{
 
 }
 .naav-bar .top .right img{
-    width: 5rem;
+    width: 9rem;
+    margin-left: 2rem;
 }
 .naav-bar .bottn{
     width: 100%;
@@ -63,11 +65,18 @@ html{
     
     padding: .2rem .2rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
+/* .naav-bar .bottn ul li{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+} */
 .naav-bar .bottn ul li a{
     list-style: none;
     text-decoration: none;
@@ -102,15 +111,16 @@ html{
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    height: 90vh;
-    background-image: url('../images/gaeden.jpg');
-    background-size: 100% 90vh;
+    height: 70vh;
+    background-image: url('../images/305454630_503544778443149_7077664787095973535_n\ \(1\).jpg');
+    background-size: 100% 70vh;
     position: relative;
 }
 .about-us .logo{
     position: absolute;
     top: 5rem;
-    right: 5rem;
+    right: 6rem;
+    width: 150px;
 }
 .about-us .bref{
     display: flex;
@@ -156,224 +166,185 @@ html{
     
 }
 /* end about us */
-/* third section */
-.third-sec{
-    max-width: 1300px;
+
+
+
+
+/* contact us */
+.contact-us-body{
     width: 100%;
-    background-color: #09361f;
-    height: 60vh;
+    max-width: 1300px;
+    height: 70vh;
+}
+.contact-us-body .top {
+    
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    padding: 3rem 1rem;
+    height: 30rem;
+    padding: 2rem 3rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+
 }
-.third-sec h1{
-    color: aliceblue;
+.contact-us-body .top img{
+    width: 25rem;
+}
+.contact-us-body .foot{
+    width: 70%;
+    
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+.contact-us-body .foot h1{
+    font-size: 4rem;
+    font-weight: bolder;
     text-align: center;
 }
-.third-sec .content{
-    width: 60%;
-    height: 35vh;
+.contact-us-body .foot .card-contain{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    padding: 0 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10rem;
-}
-.third-sec .content h3{
-    color: aliceblue;
-}
-.third-sec .content p{
-    font-size: 1.5rem;
-    color: aliceblue;
-    text-align: end;
-}
-.third-sec .content ul li{
-    list-style-type: circle;
-    list-style-position: inside;
-    direction: rtl;
-    text-align: start;
-    color: aliceblue;
-}
-/* third section */
-/* wgy us */
-.why-us{
-    max-width: 1300px;
-    width: 100%;
-    height: 50vh;   
     
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 3rem;
-}
-.why-us h1{
-    text-align: center;
-    color: rgb(17, 22, 26);
-    margin-bottom: 1rem;
-}
-.why-us .content{
-    background-color: rgb(164, 209, 194);
-    width: 90%;
-    height: 35vh;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2rem;
-}
-.why-us .content  .head{
-    border-bottom: 2px solid black;
-}
-.why-us .content .head ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    height: 20rem;
     align-items: center;
-    height: 3rem;
-    width: 90%;
-    background-color: rgb(164, 209, 194);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem 2rem;
-    border-radius: .5rem;
-
-}
-.why-us .content .head ul li{
-    list-style: none;
-    
-
-}
-.why-us .content .head ul li a{
-    text-decoration: none;
-    font-size: 1.5rem;
-    color: rgb(29, 61, 50);
-
-}
-.why-us .content .head ul li  .active{
-    background-color: aliceblue;
-    padding: .8rem;
-    color: black;
-}
-.why-us .content .body{
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    
-    width: 90%;
-    margin: 0 auto;
-    height: 80%;
     padding: 1rem;
 }
-.why-us .content .body .right img{
-    width: 28rem;
+.contact-us-body .foot .card-contain .crd{
+    display: flex;
+    flex-direction: row;
+    
+    width: 80%;
+    align-items: center;
 }
-.why-us .content .body p{
+.contact-us-body .foot .card-contain .crd label{
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+.contact-us-body .foot .card-contain .crd a{
+    text-decoration: none;
+    font-size: 2.5rem;
+
+}
+.contact-us-body .foot .card-contain .crd div{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+/* end contact us */
+
+/* treatment */
+.treatment-body{
+    max-width: 1300px;
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100vh;
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.treatment-body h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.treatment-body h5{
     font-size: 1.5rem;
-    color: rgb(48, 40, 40);
     text-align: end;
 }
-/* our serv */
-.our-serv{
-    max-width: 1300px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #09361f;
-    height: 100vh;
-    padding: 1rem 0rem;
-}
-.our-serv h1{
-    color: rgb(240, 206, 14);
-    font-size: 3rem;
-    text-align: center;
-    font-weight:bolder;
-    margin-top: 5rem;
-    
-}
-.our-serv h5{
-    color: azure;
-    text-align: center;
-    margin-top: 2rem;
-}
-.our-serv .top{
-    width: 80%;
-   margin-left: auto;
-   margin-right: auto;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-   
-
-}
-.our-serv .top .tcard  h1{
-    margin-bottom: 3rem;
-}
-
-
-.our-serv .top .tcard ul li{
-    direction: rtl;
-    list-style-position: inside;
-    text-align: start;
-    color: aliceblue;
+.treatment-body p{
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    text-align: start;
+    direction: rtl;
     
-}
-.our-serv .middle{
-  
-    width: 80%;
-    margin: 0 auto;
-    height: 30vh;
-    padding: 1.5rem;
-}
-.our-serv .middle h1{
-    margin-bottom: 3rem;
-}
-.our-serv .middle .body{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-.our-serv .middle .body button{
-    flex-basis: 33%;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    padding: 1rem 0rem;
-    border-radius: 2rem;
-    color: #09361f;
-    
-}
-.our-serv .bottm{
-    width: 80%;
-    margin: 0 auto;
-    height: 30vh;
-    padding: 1.5rem;
 }
 
-.our-serv .bottm .body{
+/* end treatment */
+/* treatment-ways */
+    .ways-body{
+        width: 80%;
+        height: 70vh;
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        padding: 2rem;
+    }
+    .ways-body h1{
+        font-size: 3rem;
+        font-weight: 900;
+        text-align: center;
+    }
+    .ways-body p{
+        font-size: 1.5rem;
+    text-align: start   ;
+    direction: rtl;
+    }
+
+/* end treatment-ways */
+
+/* our staf */
+.our-staf{
+    max-width: 1300px;
+    width: 1190px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    min-height: 100vh;
+    padding: 2rem;
+}
+.our-staf h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.our-staf .body{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 1rem;
+
 }
-.our-serv .bottm .body button{
-    flex-basis: 33%;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    padding: 1rem 0rem;
-    border-radius: 2rem;
-    color: #09361f;
+.our-staf .img{
+    flex-basis: 45%;
+    background-color: aquamarine ;
 }
-.our-serv .bottm h1{
-    margin-bottom: 2rem;
+.our-staf .img img{
+    width: 100%;
 }
+
+
+/* end our staf */
+
+/* our advan */
+.our-advan{
+    width: 80%;
+        height: 70vh;
+       
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        padding: 2rem;
+}
+.our-advan h1{
+    font-size: 3rem;
+        font-weight: 900;
+        text-align: center;
+}
+.our-advan p{
+    font-size: 1.5rem;
+    text-align: start   ;
+    direction: rtl;
+}
+
+/* end our advan */
+
 /* footer */
 .footer{
     background-color: rgb(48, 40, 40);
@@ -395,4 +366,11 @@ html{
     color: bisque;
     align-items: center;
 }
+
+
+/* end footer */
+
+
+
+
 
